@@ -4,7 +4,7 @@ export const videos = [
     title: "Video Cool",
     description: "iu so pretty",
     views: 32000,
-    videoFile: "https://youtu.be/K9qlYbwPpvo",
+    videoFile: "", 
     creator: {
       id: 23232,
       name: "JamesSleep",
@@ -16,7 +16,7 @@ export const videos = [
     title: "red velvet",
     description: "irin so pretty",
     views: 14000,
-    videoFile: "https://youtu.be/365hA_iLYZE",
+    videoFile: "",
     creator: {
       id: 21276,
       name: "JamesSleep2",
@@ -28,7 +28,7 @@ export const videos = [
     title: "Faker",
     description: "he is legend",
     views: 3222000,
-    videoFile: "https://www.youtube.com/embed/zge7dU92H_Y",
+    videoFile: "",
     creator: {
       id: 47621,
       name: "JamesSleep3",
