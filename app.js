@@ -12,6 +12,7 @@ import { localsMiddlewre } from "./middlewares";
 const app = express(); // 익스프레스 프레임워크
 
 app.set("view engine", "pug"); // node js 와 같이 사용할 프론트엔드 엔진 설정
+app.use("/uploads", express.static("uploads"));
 app.use(cookieParser());
 app.use(bodyParser.json()); // post 넘어온 json 데이터를 받기위한 모듈
 app.use(bodyParser.urlencoded({ extended: true }));
